@@ -4,10 +4,6 @@ import { requireNativeComponent, UIManager, findNodeHandle, View } from 'react-n
 
 const ZxAeDecoratedBarcodeView = requireNativeComponent('ZxAeDecoratedBarcodeView', DecoratedBarcodeView, {});
 
-type DecoratedBarcodeViewProps {
-  
-}
-
 class DecoratedBarcodeView extends React.PureComponent<{}>{
 
 
